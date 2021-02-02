@@ -1,0 +1,50 @@
+$accent-color: #f54538;
+$dark-bg :#070707;
+
+.home {
+  background: radial-gradient(#5a5a5a, $dark-bg);
+}
+
+.nav-container {
+  background: $dark-bg;
+}
+
+nav {
+  width: 80vw;
+  margin: auto;
+  min-height: 10vh;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  #logo {
+    flex: 3;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 6rem;
+      height: 6rem;
+      background: $accent-color;
+      border-radius: 50%;
+      transform: translate(-8%, -24%);
+      mix-blend-mode: screen;
+    }
+  }
+
+  .order {
+    background: $accent-color;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+  }
+}

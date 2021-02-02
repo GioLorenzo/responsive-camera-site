@@ -1,6 +1,5 @@
 @import "1-normalize.scss";
 @import "2-typescale.scss";
-@import "_home.scss";
 
 * {
   padding: 0;
@@ -11,3 +10,6 @@
 body {
   color: white;
 }
+
+@import "_home.scss";
+
