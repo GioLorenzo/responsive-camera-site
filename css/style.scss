@@ -1,5 +1,6 @@
 @import "1-normalize.scss";
 @import "2-typescale.scss";
+@import "home.scss";
 
 * {
   padding: 0;
@@ -7,3 +8,6 @@
   box-sizing: border-box;
 }
 
+body {
+  color: white;
+}

@@ -41,10 +41,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
-html {font-size: 112.5%;} /*18px*/
+html {font-size: 62.5%;} 
 
 body {
-  font-family: 'Open Sans', 'Poppins', sans-serif;
+  font-family: 'Montserrat', 'Poppins', sans-serif;
   font-weight: 200;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'lobster', sans-serif;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 8rem;
+  font-family: 'lobster', sans-serif;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2.5rem;
+}
+
+li {
+  font-size: 2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 3rem;
 }
 
