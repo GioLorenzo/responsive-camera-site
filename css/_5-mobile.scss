@@ -1,0 +1,71 @@
+@media screen and (max-width: 1430px) {
+  html {
+    font-size: 50%;
+  }
+
+  nav {
+
+    #logo {
+      flex: 1;
+    }
+
+    ul {
+
+      li {
+         margin-left: 5rem;     
+      }
+    }
+  }
+
+  .showcase {
+    grid-template-columns: 10% 1fr 10%;
+
+    img {
+      width: 150%;
+      object-fit: contain;
+    }
+
+    img, h2, .info {
+      grid-column: 2/3;
+    }
+  }
+
+  .features {
+    align-items: center;
+
+    h2 {
+      margin-top: 5rem;
+    }
+
+    .cards {
+      flex-direction: column;
+      width: 100%;
+
+      .card {
+        margin: 5rem 0;
+      }
+    }
+  }
+
+  .soon {
+    overflow: hidden; 
+    object-fit: contain;
+
+    img {
+      width: 150%;
+      height: auto;
+    }
+
+    h2 {
+      font-size: 10rem;
+      text-align: center;
+    }
+  }
+
+  footer {
+
+    h1 {
+      flex: 1;
+    }
+  }
+}
