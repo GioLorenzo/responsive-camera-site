@@ -1,5 +1,5 @@
-@import "1-normalize.scss";
-@import "2-typescale.scss";
+@import "_normalize.scss";
+@import "_typescale.scss";
 
 * {
   padding: 0;
@@ -11,5 +11,8 @@ body {
   color: white;
 }
 
-@import "_home.scss";
+@import "1-home";
+@import "2-features";
+@import "3-soon";
+@import "4-footer";
 

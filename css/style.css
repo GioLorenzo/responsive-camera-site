@@ -551,4 +551,102 @@ nav .order {
 .showcase .info h3 {
   padding-bottom: 3rem;
 }
+
+.features-container {
+  background: #5a5a5a;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.features-container .wave {
+  position: absolute;
+  left: 0;
+  bottom: -20%;
+  width: 100%;
+  z-index: -1;
+}
+
+.features {
+  min-height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.features .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: black;
+  margin-bottom: 5rem;
+}
+
+.features .cards .card {
+  background: white;
+  margin: 0rem 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.features .cards .card h4 {
+  margin: 2rem 0 .5rem 0;
+}
+
+.features .cards .card p {
+  padding: .5rem 0 2rem 0;
+}
+
+.features .cards .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.soon {
+  background: radial-gradient(#5a5a5a, #070707);
+  min-height: 80vh;
+  position: relative;
+  z-index: 0;
+}
+
+.soon * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.soon .new-model {
+  -webkit-transform: translate(-45%, -46%);
+          transform: translate(-45%, -46%);
+  height: 100%;
+}
+
+.soon .circle {
+  z-index: -1;
+}
+
+.soon h2 {
+  top: 25%;
+}
 /*# sourceMappingURL=style.css.map */
