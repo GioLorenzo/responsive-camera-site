@@ -12,6 +12,14 @@ footer {
     flex: 1;
     list-style: none;
     justify-content: space-between;
+
+    .social-link {
+      transition: transform 200ms ease;
+    }
+
+    .social-link:hover {
+      transform: scale(1.2);
+    }
   }
 
   h1 {

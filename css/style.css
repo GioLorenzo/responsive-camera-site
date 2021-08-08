@@ -605,6 +605,12 @@ footer ul {
   list-style: none;
   justify-content: space-between;
 }
+footer ul .social-link {
+  transition: transform 200ms ease;
+}
+footer ul .social-link:hover {
+  transform: scale(1.2);
+}
 footer h1 {
   flex: 3;
 }
