@@ -457,6 +457,25 @@ nav ul {
   justify-content: space-between;
   flex: 1;
   list-style: none;
+  max-width: 250px;
+}
+nav ul .order {
+  background: #f54538;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: background-color 150ms ease;
+}
+nav ul .order:hover {
+  background: #ee1c0c;
+}
+nav ul .features-nav {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: #070707;
+  transition: background-color 150ms ease;
+}
+nav ul .features-nav:hover {
+  background-color: #5a5a5a;
 }
 nav #logo {
   flex: 3;
@@ -474,11 +493,7 @@ nav #logo::after {
   transform: translate(-8%, -24%);
   mix-blend-mode: screen;
 }
-nav .order {
-  background: #f54538;
-  padding: 1rem 2rem;
-  border-radius: 2rem;
-}
+
 .showcase {
   display: grid;
   min-height: 90vh;

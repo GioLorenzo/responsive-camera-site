@@ -30,6 +30,28 @@ nav {
     justify-content: space-between;
     flex: 1;
     list-style: none;
+    max-width: 250px;
+
+    .order {
+      background: $accent-color;
+      padding: 1rem 2rem;
+      border-radius: 2rem;
+      transition: background-color 150ms ease;
+    }
+
+    .order:hover {
+      background: darken($accent-color, 10%);
+    }
+
+    .features-nav {
+      padding: 1rem 2rem;
+      border-radius: 2rem;
+      background-color: #070707;
+      transition: background-color 150ms ease;
+    }
+    .features-nav:hover {
+      background-color: #5a5a5a;
+    }
   }
 
   #logo {
@@ -48,16 +70,6 @@ nav {
       transform: translate(-8%, -24%);
       mix-blend-mode: screen;
     }
-  }
-
-  .order {
-    background: $accent-color;
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-  }
-
-  .features-nav {
-    
   }
 }
 
